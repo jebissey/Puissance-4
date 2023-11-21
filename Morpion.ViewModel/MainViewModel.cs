@@ -10,11 +10,11 @@
         private readonly IMainView _view;
 
         private CelluleViewModel[] _grille;
-        private               bool _joueur;
+        private bool _joueur;
 
         public MainViewModel(IMainView view)
         {
-            _view   = view;
+            _view = view;
             _grille = GrilleVide();
         }
 
